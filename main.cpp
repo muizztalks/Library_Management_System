@@ -222,7 +222,7 @@ public:
     // Display all books in sorted order (inorder traversal)
     void displayAllBooks() {
         if (!root) {
-            cout << "azaan is pagal" << endl;
+            cout << "The tree is empty. No books to display." << endl;
             return; // Return if the tree is empty
         }
         cout << "All Books in sorted order: " << endl;
